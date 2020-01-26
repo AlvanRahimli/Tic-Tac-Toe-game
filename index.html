@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TIC TAC TOE</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>TIC TAC TOE</h1>
+		<p>This is new game that u have never played.</p>
+		<button class="btn btn-success">Reset game!</button>
+
+		<table class="tictactoeTable">
+			<tr class="trTurn">
+				<td class="tdTurn"></td>
+				<td class="tdTurn"></td>
+				<td class="tdTurn"></td>
+			</tr>
+			<tr class="tttTr">
+				<td id="0" class="tttTd"></td>
+				<td id="1" class="tttTd"></td>
+				<td id="2" class="tttTd"></td>
+			</tr>
+			<tr class="tttTr">
+				<td id="3" class="tttTd"></td>
+				<td id="4" class="tttTd"></td>
+				<td id="5" class="tttTd"></td>
+			</tr>
+			<tr class="tttTr">
+				<td id="6" class="tttTd"></td>
+				<td id="7" class="tttTd"></td>
+				<td id="8" class="tttTd"></td>
+			</tr>
+		</table><br><br>
+		
+		<h2 style="text-align: center;">
+			SHOT:
+			<button class="btn btn-secondary"
+					onclick="resetShot()">Reset Shot</button>
+		</h2>
+		<div class="shot-div">
+			<p style="color: red;">RED: <span id="redCount">0</span></p>
+			<p style="color: blue;">BLUE: <span id="blueCount">0</span></p>
+		</div>
+	</div>
+	
+	
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

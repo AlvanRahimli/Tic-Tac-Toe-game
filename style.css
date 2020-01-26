@@ -1,0 +1,30 @@
+.tictactoeTable {
+	border: 3px solid blue;
+	height: 450px;
+	margin: auto;
+	width: 450px;
+}
+
+.tttTd {
+	text-align: center;
+	width: 33%;
+	border: 3px solid blue;
+	font-size: 72px;
+}
+
+.tttTr {
+	height: 150px;
+}
+
+.trTurn {
+	height: 25px;
+}
+
+.tdTurn {
+	background-color: blue;
+}
+
+.shot-div {
+	text-align: center;
+	font-size: 45px;
+}
